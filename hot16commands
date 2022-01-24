@@ -1,17 +1,17 @@
-sudo
-pwd
-cd
-ls
-mkdir
-mv
-apt
-systemctl
-cp
-mv
-rm
-nano
-cat
-git
-touch
-cat
+1 sudo - uruchom jako root
+2 pwd - aktualny katalog
+3 cd - zmiana katalogu
+4 ls - zawartość katalogu
+5 mkdir - tworzenie katalogu
+6 mv - przenoszenie plików/katalogów , zmiana nazw
+7 apt - menadżer pakietów
+8 systemctl - restartowanie/status usług
+9 cp - kopiowanie plików
+10 rm - usuwanie plików/katalogów
+11 nano - edytor tekstu
+12 cat - listowanie zawartości pliku
+13 git - program git 
+14 touch - tworzenie plików
+15 which - ścieżka sprawdzanego programu
+16 mc - Midnight Commander
 
