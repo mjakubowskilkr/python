@@ -1,17 +1,25 @@
-1 sudo - uruchom jako root
-2 pwd - aktualny katalog
-3 cd - zmiana katalogu
-4 ls - zawartość katalogu
-5 mkdir - tworzenie katalogu
-6 mv - przenoszenie plików/katalogów , zmiana nazw
-7 apt - menadżer pakietów
-8 systemctl - restartowanie/status usług
-9 cp - kopiowanie plików
-10 rm - usuwanie plików/katalogów
-11 nano - edytor tekstu
-12 cat - listowanie zawartości pliku
-13 git - program git 
-14 touch - tworzenie plików
-15 which - ścieżka sprawdzanego programu
-16 mc - Midnight Commander
+Propozycja najważniejszych komend # 
+Lista #LinuxHot16Challange by m3a2r1
+
+praca na systemie plików
+1 cd ~/xxx - zmiana katalogu na podany (bez parametrów przenosi do katalogu domowego)
+2 pwd - pokaż mi aktualny katalog
+3 ls - pokaż mi zawartość katalogu (z przełącznikiem -ls bardziej szczegółowo)
+4 mkdir - tworzenie katalogu
+5 rm - usuwanie plików/katalogów ( UWAGA! root może usunąć cały system plików, stosować ostrożnie)
+6 cp - kopiowanie plików
+7 mv - przenoszenie plików/katalogów , zmiana nazw
+8 cat - listowanie zawartości pliku
+9 tail -f /var/log/syslog - podgląd logu na żywo (każdy pojawiający się w logu wiersz pokazuje się od razu na ekranie)
+10 touch - tworzenie plików
+11 grep - wyszukiwanie ciągu znaków w pliku
+12 which gunicorn - zwraca nam ścieżkę programu który podajemy jako parametr
+administrator
+13 sudo program - uruchamianie programu jako root (konieczne na AWS gdzie logujemy się jako regular user)
+14 systemctl restart usluga - restartowanie usług w systeme Linux (stop/start/status/enable)
+15 apt install pakiet - instalacja brakujących pakietów
+16 vim - najlepszy edytor tekstu ever :) (i pierwsze wspomnienia z vim, jak z tego wyjść :)
+
+
+
 
